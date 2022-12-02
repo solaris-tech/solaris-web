@@ -100,8 +100,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "solaris-tech:build:production",
+            "firebaseProject": "solaris-2911",
+            "firebaseHostingSite": "solaris-2911"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "343bb4e5-83e0-4c71-aaaf-e2d19d1f1ac7"
   }
 }

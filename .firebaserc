@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "solaris-2911": {
+      "hosting": {
+        "solaris-tech": [
+          "solaris-2911"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "solaris-2911"
+  }
+}
